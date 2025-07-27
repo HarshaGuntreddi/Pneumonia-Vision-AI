@@ -1,0 +1,22 @@
+# General Parameters
+project_name: "Pneumonia-Vision-AI"
+author_email: "harshavguntreddi@gmail.com"
+seed: 42
+
+# Data Parameters
+data_dir: "data/raw/chest_xray/" # Path to the extracted dataset folder
+image_size: [224, 224]
+class_names: ["NORMAL", "PNEUMONIA"]
+
+# Training Parameters
+model_path: "models/pneumonia_diagnostics_best.h5"
+output_dir: "output/"
+batch_size: 32
+
+# Stage 1: Feature Extraction
+epochs_stage_1: 5
+learning_rate_stage_1: 0.0001
+
+# Stage 2: Fine-Tuning
+epochs_stage_2: 10
+learning_rate_stage_2: 0.00001
