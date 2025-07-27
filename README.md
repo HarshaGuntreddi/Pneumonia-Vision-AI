@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![arXiv](https://img.shields.io/badge/Paper-arXiv:1711.05225-b31b1b.svg)](https://arxiv.org/abs/1711.05225)
 
-An advanced diagnostic framework for the automated classification of pneumonia from chest X-rays. This repository contains the source code for **PneumoniaNet**, a Convolutional Neural Network architected using a multi-stage transfer learning protocol to achieve clinical-grade performance. 🩺
+An advance framework for the automated classification of pneumonia from chest X-rays. This repository contains the source code for **PneumoniaNet**, a Convolutional Neural Network architected using a multi-stage transfer learning protocol to achieve clinical-grade performance. 🩺
 
 ![Pneumonia X-Ray Examples](https://i.imgur.com/8Qp4a7k.png)
 
