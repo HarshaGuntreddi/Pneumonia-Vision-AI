@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+/venv/
+/env/
+/.env/
+
+# Data and Models (too large for Git)
+/data/raw/
+/data/processed/
+/models/*
+!/models/.gitkeep
+/chest_xray/
+
+# Output files
+/output/*
+!/output/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+*.ipynb_checkpoints
+
+# Kaggle API token
+kaggle.json
+
+# Test artifacts
+.pytest_cache/
